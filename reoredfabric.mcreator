@@ -3,6 +3,7 @@
     {
       "name": "OakArmor",
       "type": "armor",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_armor",
@@ -67,6 +68,247 @@
           "src/main/resources/data/reoredfabric/recipes/oak_boots.json"
         ]
       }
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reoredfabric/item/CopperPickaxeItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/copper_pickaxe.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reoredfabric/models/item/copper_sword.json",
+          "src/main/java/net/grawmpy/reoredfabric/item/CopperSwordItem.java"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "ReoredArmory",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reored_armory",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ReoredTools",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reored_tools",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reoredfabric/item/CopperAxeItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/copper_axe.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reoredfabric/item/CopperShovelItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/copper_shovel.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reoredfabric/item/CopperHoeItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/copper_hoe.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reoredfabric/item/CopperArmorItem.java",
+          "src/main/resources/assets/reoredfabric/models/item/copper_armor_leggings.json",
+          "src/main/resources/assets/reoredfabric/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/reoredfabric/models/item/copper_armor_chestplate.json",
+          "src/main/resources/assets/reoredfabric/models/item/copper_armor_boots.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperPickaxeCR",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_pickaxe_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperSwordCR",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_sword_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperAxeCR",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_axe_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperShovelCR",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_shovel_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperHoeCR",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_hoe_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperCapCR",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_cap_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_cap_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperChestCR",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_chest_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_chest_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperLegsCR",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_legs_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_legs_cr.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperBootsCR",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_boots_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reoredfabric/recipes/copper_boots_cr.json"
+        ]
+      },
+      "path": "~/Copper"
     }
   ],
   "variable_elements": [],
@@ -74,9 +316,20 @@
   "language_map": {
     "en_us": {
       "item.reoredfabric.oak_armor_boots": "Wooden Boots",
+      "item.reoredfabric.copper_pickaxe": "Copper Pickaxe",
+      "item.reoredfabric.copper_armor_leggings": "Copper Leggings",
+      "itemGroup.reoredfabric.reored_armory": "Reored Armory",
+      "item.reoredfabric.copper_sword": "Copper Sword",
+      "item.reoredfabric.copper_armor_helmet": "Copper Helmet",
+      "item.reoredfabric.copper_hoe": "Copper Hoe",
+      "item.reoredfabric.oak_armor_leggings": "Wooden Leggings",
+      "item.reoredfabric.copper_shovel": "Copper Shovel",
+      "itemGroup.reoredfabric.reored_tools": "Reored Tools",
+      "item.reoredfabric.copper_armor_chestplate": "Copper Chestplate",
+      "item.reoredfabric.copper_axe": "Copper Axe",
       "item.reoredfabric.oak_armor_chestplate": "Wooden Chestplate",
       "item.reoredfabric.oak_armor_helmet": "Wooden Helmet",
-      "item.reoredfabric.oak_armor_leggings": "Wooden Leggings"
+      "item.reoredfabric.copper_armor_boots": "Copper Boots"
     }
   },
   "foldersRoot": {

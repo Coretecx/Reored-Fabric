@@ -17,6 +17,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.minecraft.nbt.CompoundTag;
 
+import net.grawmpy.reoredfabric.init.ReoredfabricModTabs;
 import net.grawmpy.reoredfabric.init.ReoredfabricModItems;
 
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
@@ -29,6 +30,7 @@ public class ReoredfabricMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing ReoredfabricMod");
+		ReoredfabricModTabs.load();
 
 		ReoredfabricModItems.load();
 
