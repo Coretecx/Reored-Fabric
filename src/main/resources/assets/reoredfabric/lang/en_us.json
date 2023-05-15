@@ -5,6 +5,7 @@
   "itemGroup.reoredfabric.reored_armory": "Reored Armory",
   "item.reoredfabric.copper_sword": "Copper Sword",
   "item.reoredfabric.copper_armor_helmet": "Copper Helmet",
+  "itemGroup.reoredfabric.reored_blocks": "Reored Blocks",
   "item.reoredfabric.copper_hoe": "Copper Hoe",
   "item.reoredfabric.oak_armor_leggings": "Wooden Leggings",
   "item.reoredfabric.copper_shovel": "Copper Shovel",
@@ -13,5 +14,6 @@
   "item.reoredfabric.copper_axe": "Copper Axe",
   "item.reoredfabric.oak_armor_chestplate": "Wooden Chestplate",
   "item.reoredfabric.oak_armor_helmet": "Wooden Helmet",
+  "block.reoredfabric.silver_ore": "Silver Ore",
   "item.reoredfabric.copper_armor_boots": "Copper Boots"
 }

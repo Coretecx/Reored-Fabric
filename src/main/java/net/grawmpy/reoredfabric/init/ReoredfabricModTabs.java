@@ -13,9 +13,11 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 public class ReoredfabricModTabs {
 	public static CreativeModeTab TAB_REORED_TOOLS;
 	public static CreativeModeTab TAB_REORED_ARMORY;
+	public static CreativeModeTab TAB_REORED_BLOCKS;
 
 	public static void load() {
 		TAB_REORED_TOOLS = FabricItemGroupBuilder.create(new ResourceLocation("reoredfabric", "reored_tools")).icon(() -> new ItemStack(ReoredfabricModItems.COPPER_PICKAXE)).build();
 		TAB_REORED_ARMORY = FabricItemGroupBuilder.create(new ResourceLocation("reoredfabric", "reored_armory")).icon(() -> new ItemStack(ReoredfabricModItems.COPPER_SWORD)).build();
+		TAB_REORED_BLOCKS = FabricItemGroupBuilder.create(new ResourceLocation("reoredfabric", "reored_blocks")).icon(() -> new ItemStack(ReoredfabricModBlocks.SILVER_ORE)).build();
 	}
 }

@@ -12,6 +12,8 @@
 */
 package net.grawmpy.reoredfabric;
 
+import net.grawmpy.reoredfabric.init.ReoredfabricModBlocks;
+
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -20,6 +22,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		ReoredfabricModBlocks.clientLoad();
 
 	}
 }

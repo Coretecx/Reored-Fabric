@@ -5,6 +5,7 @@
 package net.grawmpy.reoredfabric.init;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
@@ -31,6 +32,7 @@ public class ReoredfabricModItems {
 	public static Item COPPER_ARMOR_CHESTPLATE;
 	public static Item COPPER_ARMOR_LEGGINGS;
 	public static Item COPPER_ARMOR_BOOTS;
+	public static Item SILVER_ORE;
 
 	public static void load() {
 		OAK_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(ReoredfabricMod.MODID, "oak_armor_helmet"), new OakArmorItem.Helmet());
@@ -46,5 +48,6 @@ public class ReoredfabricModItems {
 		COPPER_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(ReoredfabricMod.MODID, "copper_armor_chestplate"), new CopperArmorItem.Chestplate());
 		COPPER_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(ReoredfabricMod.MODID, "copper_armor_leggings"), new CopperArmorItem.Leggings());
 		COPPER_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(ReoredfabricMod.MODID, "copper_armor_boots"), new CopperArmorItem.Boots());
+		SILVER_ORE = Registry.register(Registry.ITEM, new ResourceLocation(ReoredfabricMod.MODID, "silver_ore"), new BlockItem(ReoredfabricModBlocks.SILVER_ORE, new Item.Properties().tab(ReoredfabricModTabs.TAB_REORED_BLOCKS)));
 	}
 }

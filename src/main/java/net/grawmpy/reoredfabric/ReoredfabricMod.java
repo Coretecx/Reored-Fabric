@@ -19,6 +19,8 @@ import net.minecraft.nbt.CompoundTag;
 
 import net.grawmpy.reoredfabric.init.ReoredfabricModTabs;
 import net.grawmpy.reoredfabric.init.ReoredfabricModItems;
+import net.grawmpy.reoredfabric.init.ReoredfabricModFeatures;
+import net.grawmpy.reoredfabric.init.ReoredfabricModBlocks;
 
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.api.ModInitializer;
@@ -32,7 +34,10 @@ public class ReoredfabricMod implements ModInitializer {
 		LOGGER.info("Initializing ReoredfabricMod");
 		ReoredfabricModTabs.load();
 
+		ReoredfabricModBlocks.load();
 		ReoredfabricModItems.load();
+
+		ReoredfabricModFeatures.load();
 
 		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
 			if (handler.getPlayer().getExtraCustomData().getCompound("PlayerPersisted").isEmpty()) {
