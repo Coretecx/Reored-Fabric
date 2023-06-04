@@ -11,6 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 
 import net.grawmpy.reoredfabric.world.features.ores.SilverOreFeature;
+import net.grawmpy.reoredfabric.world.features.ores.DeepslateSilverOreFeature;
 import net.grawmpy.reoredfabric.ReoredfabricMod;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
@@ -21,6 +22,7 @@ import java.util.function.Predicate;
 public class ReoredfabricModFeatures {
 	public static void load() {
 		register("silver_ore", SilverOreFeature.feature(), SilverOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("deepslate_silver_ore", DeepslateSilverOreFeature.feature(), DeepslateSilverOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {

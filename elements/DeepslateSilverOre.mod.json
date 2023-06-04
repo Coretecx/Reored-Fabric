@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "silver_ore",
+    "texture": "deepslate_silver_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Silver Ore",
+    "name": "Deepslate Silver Ore",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 4.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -128,8 +128,8 @@
     ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 5,
-    "frequencyOnChunk": 8,
-    "minGenerateHeight": 64,
-    "maxGenerateHeight": 128
+    "frequencyOnChunk": 10,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

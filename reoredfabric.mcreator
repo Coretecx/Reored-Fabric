@@ -338,12 +338,31 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "DeepslateSilverOre",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reoredfabric/world/features/ores/DeepslateSilverOreFeature.java",
+          "src/main/resources/assets/reoredfabric/models/item/deepslate_silver_ore.json",
+          "src/main/resources/assets/reoredfabric/models/block/deepslate_silver_ore.json",
+          "src/main/resources/assets/reoredfabric/blockstates/deepslate_silver_ore.json",
+          "src/main/java/net/grawmpy/reoredfabric/block/DeepslateSilverOreBlock.java"
+        ]
+      },
+      "path": "~/Silver"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.reoredfabric.deepslate_silver_ore": "Deepslate Silver Ore",
       "item.reoredfabric.oak_armor_boots": "Wooden Boots",
       "item.reoredfabric.copper_pickaxe": "Copper Pickaxe",
       "item.reoredfabric.copper_armor_leggings": "Copper Leggings",

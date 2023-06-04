@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reoredfabric:blocks/deepslate_silver_ore",
+    "particle": "reoredfabric:blocks/deepslate_silver_ore"
+  }
+}

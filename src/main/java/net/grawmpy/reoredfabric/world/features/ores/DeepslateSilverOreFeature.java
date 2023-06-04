@@ -34,22 +34,22 @@ import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
 import java.util.function.Predicate;
 import java.util.List;
 
-public class SilverOreFeature extends OreFeature {
-	public static SilverOreFeature FEATURE = null;
+public class DeepslateSilverOreFeature extends OreFeature {
+	public static DeepslateSilverOreFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new SilverOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("reoredfabric:silver_ore", FEATURE, new OreConfiguration(SilverOreFeatureRuleTest.INSTANCE, ReoredfabricModBlocks.SILVER_ORE.defaultBlockState(), 8));
-		PLACED_FEATURE = PlacementUtils.register("reoredfabric:silver_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(64), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
+		FEATURE = new DeepslateSilverOreFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("reoredfabric:deepslate_silver_ore", FEATURE, new OreConfiguration(DeepslateSilverOreFeatureRuleTest.INSTANCE, ReoredfabricModBlocks.DEEPSLATE_SILVER_ORE.defaultBlockState(), 10));
+		PLACED_FEATURE = PlacementUtils.register("reoredfabric:deepslate_silver_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
 	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.all();
 
-	public SilverOreFeature() {
+	public DeepslateSilverOreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -64,10 +64,10 @@ public class SilverOreFeature extends OreFeature {
 		return super.place(context);
 	}
 
-	private static class SilverOreFeatureRuleTest extends RuleTest {
-		static final SilverOreFeatureRuleTest INSTANCE = new SilverOreFeatureRuleTest();
-		static final com.mojang.serialization.Codec<SilverOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<SilverOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("reoredfabric:silver_ore_match"), () -> codec);
+	private static class DeepslateSilverOreFeatureRuleTest extends RuleTest {
+		static final DeepslateSilverOreFeatureRuleTest INSTANCE = new DeepslateSilverOreFeatureRuleTest();
+		static final com.mojang.serialization.Codec<DeepslateSilverOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		static final RuleTestType<DeepslateSilverOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("reoredfabric:deepslate_silver_ore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, RandomSource random) {
 			boolean blockCriteria = false;
